@@ -8,8 +8,11 @@
   grid-template-columns: 300px 300px;
   grid-template-rows: 200px 300px 100px;
 
-  width: 200vh;
-  height: 100vh;
+  justify-items: center;
+  align-items: center;
+
+  justify-content: center;
+  align-content: center;
 }
 div {
   border: 1px solid red;
@@ -18,18 +21,26 @@ div {
 .header {
   grid-area: header;
   background-color: green;
+  width: 100px;
+  height: 100px;
 }
 .menu {
   grid-area: menu;
   background-color: yellow;
+  width: 100px;
+  height: 100px;
 }
 
 .content {
   grid-area: content;
   background-color: rgb(195, 90, 205);
+  width: 100px;
+  height: 100px;
 }
 
 .footer {
   grid-area: footer;
   background-color: tomato;
+  width: 100px;
+  height: 100px;
 }
